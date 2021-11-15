@@ -1,0 +1,1 @@
+import "@/assets/fontawesome-free-5.9.0-web/css/all.css";
