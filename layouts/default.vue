@@ -97,6 +97,20 @@ export default {
 </script>
 
 <style lang="scss">
+
+@font-face {
+  font-family: 'Cairo';
+  src: url('@/assets/fonts/Cairo/Cairo-Regular.ttf');
+}
+@font-face {
+  font-family: 'CairoSemiBold';
+  src: url('@/assets/fonts/Cairo/Cairo-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'CairoBold';
+  src: url('@/assets/fonts/Cairo/Cairo-Bold.ttf');
+}
+
 @import "../assets/styles/override.scss";
 
 .main-content.isInLogin {
