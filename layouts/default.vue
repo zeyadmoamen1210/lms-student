@@ -100,15 +100,15 @@ export default {
 
 @font-face {
   font-family: 'Cairo';
-  src: url('@/assets/fonts/Cairo/Cairo-Regular.ttf');
+  src: url('@/assets/fonts/fonts/Cairo/Cairo-Regular.ttf');
 }
 @font-face {
   font-family: 'CairoSemiBold';
-  src: url('@/assets/fonts/Cairo/Cairo-SemiBold.ttf');
+  src: url('@/assets/fonts/fonts/Cairo/Cairo-SemiBold.ttf');
 }
 @font-face {
   font-family: 'CairoBold';
-  src: url('@/assets/fonts/Cairo/Cairo-Bold.ttf');
+  src: url('@/assets/fonts/fonts/Cairo/Cairo-Bold.ttf');
 }
 
 @import "../assets/styles/override.scss";
