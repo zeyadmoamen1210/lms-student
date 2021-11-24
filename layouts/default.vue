@@ -120,6 +120,7 @@ export default {
 .main-content.collapsed-english {
   margin-left: 267px;
 }
+//...
 
 .main-content.collapsed-arabic {
   margin-right: 267px;
