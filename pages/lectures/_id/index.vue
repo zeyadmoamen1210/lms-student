@@ -1655,6 +1655,9 @@ export default {
         }
     },
     fetchCommentsOfMaterial() {
+      if(!this.currVideo){
+        return;
+      }
       const loading = this.$vs.loading();
       this.$axios
         .get(`/material/${this.currVideo.id}/comments?page=${this.page}`)
@@ -1724,7 +1727,10 @@ export default {
           if (this.videos.length > 0) {
             this.currVideo = this.videos.find((ele) => ele.type == "video");
             this.fetchCommentsOfMaterial();
-            this.currVideoId = this.getVideoId(this.currVideo.link);
+            if(this.currVideo){
+              this.currVideoId = this.getVideoId(this.currVideo.link);
+
+            }
             this.otherVideos = this.videos.filter(
               (video) => video.type == "video" && video.id != this.currVideo.id
             );
